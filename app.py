@@ -1,3 +1,13 @@
+"""
+Clustering Models Evaluation App
+
+This Streamlit application allows users to upload a dataset (CSV or Excel),
+applies multiple clustering algorithms, evaluates them using Silhouette Score
+and Davies-Bouldin Index, and visualizes the clusters using PCA.
+
+No hardcoded file paths are used; data is provided via file upload.
+"""
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -144,3 +154,4 @@ if uploaded_file is not None:
         df_output.to_csv(index=False),
         "clustered_output.csv"
     )
+
