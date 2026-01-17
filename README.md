@@ -88,7 +88,7 @@ Metrics are computed only when **valid clusters** are formed.
 | MeanShift | Skipped (Slow) | NA | NA |
 
 **Best performing model in this setup:**  
-➡️ **Agglomerative Clustering**
+➡️ **KMeans**
 
 ---
 
